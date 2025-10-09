@@ -17,7 +17,7 @@ ol{
 	color: #A61723;
 }
 ol span{
-	color: #0F0F0F;
+	color: #F0F0F0;
 }
 ul{
 	display: inline-block;
@@ -26,7 +26,7 @@ ul{
 	color: #A61723;
 }
 ul span{
-	color: #0F0F0F;
+	color: #F0F0F0;
 }
 h1{
 	font-family: monospace;
