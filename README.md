@@ -1,2 +1,2 @@
 # CRF-Database
-This is just for some RP. Not much else...
+This is really really hard to explain.
