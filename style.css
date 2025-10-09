@@ -10,6 +10,7 @@ p{
 ol{
 	display: inline-block;
 	font-family: monospace;
+	text-align: left;
 }
 h1{
 	font-family: monospace;
