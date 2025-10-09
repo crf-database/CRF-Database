@@ -4,3 +4,9 @@ body{
 .title {
 	color: #5C6AC4;
 }
+p{
+	font-family: Verdana;
+}
+h2{
+	font-family: Typewriter;
+}
