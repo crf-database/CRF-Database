@@ -12,6 +12,8 @@ h2{
 	font-family: Typewriter, Serif;
 	color: #A61723;
 	font-size: 28px;
+	border-bottom-color: #A61723;
+	border-bottom-width: 2px;
 }
 h3{
 	font-family: Typewriter, Serif;
