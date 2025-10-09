@@ -1,3 +1,2 @@
 # CRF-Database
-crf database
 This is just for some RP. Not much else...
