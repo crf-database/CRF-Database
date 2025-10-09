@@ -1,19 +1,19 @@
 body{
   padding: 25px;
 }
-.title {
-	color: #5C6AC4;
-}
 p{
 	font-family: Verdana, Serif;
 }
 h1{
 	font-family: Typewriter, Serif;
+	color: #5C6AC4;
 }
 h2{
 	font-family: Typewriter, Serif;
+	color: #A61723;
 }
 h3{
 	font-family: Typewriter, Serif;
 	font-size: 20px;
+	color: #71A617;
 }
