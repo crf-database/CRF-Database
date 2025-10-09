@@ -14,11 +14,19 @@ ol{
 	display: inline-block;
 	font-family: monospace;
 	text-align: left;
+	color: #A61723;
+}
+ol span{
+	color: #0F0F0F;
 }
 ul{
 	display: inline-block;
 	font-family: monospace;
 	text-align: left;
+	color: #A61723;
+}
+ul span{
+	color: #0F0F0F;
 }
 h1{
 	font-family: monospace;
