@@ -1,22 +1,24 @@
 body{
   padding: 25px;
+  width: 75%;
+  margin: auto;
+  text-align: center;
 }
 p{
-	font-family: Verdana, Serif;
+	font-family: monospace;
 }
 h1{
-	font-family: Typewriter, Serif;
+	font-family: monospace;
 	color: #5C6AC4;
 }
 h2{
-	font-family: Typewriter, Serif;
+	font-family: monospace;
 	color: #A61723;
 	font-size: 28px;
-	border-bottom-color: #A61723;
-	border-bottom-width: 2px;
+	border-bottom: solid 2px #A61723;
 }
 h3{
-	font-family: Typewriter, Serif;
+	font-family: monospace;
 	font-size: 20px;
 	color: #A61740;
 }
