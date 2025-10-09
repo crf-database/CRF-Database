@@ -13,6 +13,11 @@ ol{
 	font-family: monospace;
 	text-align: left;
 }
+ul{
+	display: inline-block;
+	font-family: monospace;
+	text-align: left;
+}
 h1{
 	font-family: monospace;
 	color: #5C6AC4;
