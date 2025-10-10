@@ -8,13 +8,16 @@ body{
 	background-color: #202115;
 	--title-colour: #abca18;
 	--section-colour: #e9056b;
+	--block-background-colour: #131408;
 	--header-colour: #ae74ff;
 }
 p{
+	background-color: var(--block-background-colour);
 	font-family: monospace;
 }
 ol{
 	display: inline-block;
+	background-color: var(--block-background-colour);
 	font-family: monospace;
 	text-align: left;
 	color: var(--section-colour);
@@ -25,6 +28,7 @@ ol span{
 }
 ul{
 	display: inline-block;
+	background-color: var(--block-background-colour);
 	font-family: monospace;
 	text-align: left;
 	color: var(--section-colour);
