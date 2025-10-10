@@ -26,6 +26,7 @@ ol{
 	margin: 15px 0;
 	padding: 14px;
 	border-radius: 12px;
+	list-style-position: inside;
 }
 ol span{
 	color: #F0F0F0;
@@ -39,6 +40,7 @@ ul{
 	margin: 15px 0;
 	padding: 14px;
 	border-radius: 12px;
+	list-style-position: inside;
 }
 ul span{
 	color: #F0F0F0;
