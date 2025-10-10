@@ -15,7 +15,7 @@ ol{
 	font-family: monospace;
 	text-align: left;
 	color: #A61740;
-	padding: 36px;
+	margin: 10px 0;
 }
 ol span{
 	color: #F0F0F0;
@@ -25,7 +25,7 @@ ul{
 	font-family: monospace;
 	text-align: left;
 	color: #A61740;
-	padding: 36px;
+	margin: 10px 0;
 }
 ul span{
 	color: #F0F0F0;
