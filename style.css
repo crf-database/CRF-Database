@@ -14,8 +14,8 @@ body{
 p{
 	background-color: var(--block-background-colour);
 	font-family: monospace;
-	margin-top: 14px;
-	margin-bottom: 14px;
+	padding: 14px;
+	border-radius: 12px;
 }
 ol{
 	display: inline-block;
@@ -24,6 +24,8 @@ ol{
 	text-align: left;
 	color: var(--section-colour);
 	margin: 15px 0;
+	padding: 14px;
+	border-radius: 12px;
 }
 ol span{
 	color: #F0F0F0;
@@ -35,6 +37,8 @@ ul{
 	text-align: left;
 	color: var(--section-colour);
 	margin: 15px 0;
+	padding: 14px;
+	border-radius: 12px;
 }
 ul span{
 	color: #F0F0F0;
