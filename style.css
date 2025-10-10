@@ -5,7 +5,7 @@ body{
 	text-align: center;
 	font-size: 18px;
 	color: #F0F0F0;
-	background-color: #0F0F0F;
+	background-color: #272822;
 	--title-colour: #abca18;
 	--section-colour: #9fe80c;
 	--header-colour: #d09906;
@@ -43,7 +43,7 @@ h2{
 	font-family: monospace;
 	color: var(--section-colour);
 	font-size: 34px;
-	border-bottom: solid 2px #389c40;
+	border-bottom: solid 2px var(--section-colour);
 }
 h3{
 	font-family: monospace;
