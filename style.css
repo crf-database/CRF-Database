@@ -49,11 +49,10 @@ h1{
 	font-family: monospace;
 	color: var(--title-colour);
 	font-size: 42px;
-	border-color: solid 3px var(--title-colour);
+	border: solid 3px var(--title-colour);
 }
 h1:hover{
 	color: #171812;
-	font-size: 42px;
 	background-color: var(--title-colour);
 }
 h2{
@@ -61,6 +60,10 @@ h2{
 	color: var(--section-colour);
 	font-size: 34px;
 	border-bottom: solid 2px var(--section-colour);
+}
+h2:hover{
+	color: #171812;
+	background-colour: var(--section-colour);
 }
 h3{
 	font-family: monospace;
