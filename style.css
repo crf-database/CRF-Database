@@ -10,7 +10,7 @@ body{
 	--section-colour: #e9056b;
 	--block-background-colour: #131408;
 	--header-colour: #ae74ff;
-	--block-border: solid 2px var(--section-colour);
+	--block-border: solid 1px var(--section-colour);
 }
 p{
 	background-color: var(--block-background-colour);
