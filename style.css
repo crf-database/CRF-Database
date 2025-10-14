@@ -78,3 +78,7 @@ h3{
 	border-top: solid 1px var(--header-colour);
 	border-bottom: solid 1px var(--header-colour);
 }
+h3:hover{
+	color: #171812;
+	background-color: var(--header-colour)
+}
