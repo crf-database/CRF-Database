@@ -11,6 +11,9 @@ body{
 	--block-background-colour: #131408;
 	--header-colour: #ae74ff;
 }
+div:hover{
+	border: solid 3px var(--section-colour);
+}
 p{
 	background-color: var(--block-background-colour);
 	font-family: monospace;
