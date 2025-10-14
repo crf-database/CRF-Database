@@ -11,7 +11,7 @@ body{
 	--block-background-colour: #131408;
 	--header-colour: #ae74ff;
 }
-div:hover{
+.entry:hover{
 	border: solid 3px var(--section-colour);
 }
 p{
