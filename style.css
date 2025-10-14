@@ -47,6 +47,11 @@ ul span{
 }
 h1{
 	font-family: monospace;
+	color: var(--title-colour);
+	font-size: 42px;
+	border-color: solid 3px var(--title-colour);
+}
+h1:hover{
 	color: #171812;
 	font-size: 42px;
 	background-color: var(--title-colour);
