@@ -80,5 +80,5 @@ h3{
 }
 h3:hover{
 	color: #171812;
-	background-color: var(--header-colour)
+	background-color: var(--header-colour);
 }
