@@ -16,6 +16,7 @@ div:not(.Heading):hover{
 }
 p{
 	background-color: var(--block-background-colour);
+	border: solid 3px var(--section-colour);
 	font-family: monospace;
 	padding: 14px;
 	border-radius: 6px;
@@ -23,6 +24,7 @@ p{
 ol{
 	display: inline-block;
 	background-color: var(--block-background-colour);
+	border: solid 3px var(--section-colour);
 	font-family: monospace;
 	text-align: left;
 	color: var(--section-colour);
@@ -37,6 +39,7 @@ ol span{
 ul{
 	display: inline-block;
 	background-color: var(--block-background-colour);
+	border: solid 3px var(--section-colour);
 	font-family: monospace;
 	text-align: left;
 	color: var(--section-colour);
