@@ -5,7 +5,7 @@ body{
 	text-align: center;
 	font-size: 18px;
 	color: #F0F0F0;
-	background-color: #202115;
+	background-color: #171812;
 	--title-colour: #abca18;
 	--section-colour: #e9056b;
 	--block-background-colour: #131408;
@@ -15,7 +15,7 @@ p{
 	background-color: var(--block-background-colour);
 	font-family: monospace;
 	padding: 14px;
-	border-radius: 4px;
+	border-radius: 6px;
 }
 ol{
 	display: inline-block;
@@ -25,7 +25,7 @@ ol{
 	color: var(--section-colour);
 	margin: 15px 0;
 	padding: 14px;
-	border-radius: 4px;
+	border-radius: 6px;
 	list-style-position: inside;
 }
 ol span{
@@ -39,7 +39,7 @@ ul{
 	color: var(--section-colour);
 	margin: 15px 0;
 	padding: 14px;
-	border-radius: 4px;
+	border-radius: 6px;
 	list-style-position: inside;
 }
 ul span{
