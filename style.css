@@ -47,9 +47,9 @@ ul span{
 }
 h1{
 	font-family: monospace;
-	color: var(--title-colour);
+	color: #171812;
 	font-size: 42px;
-	border: solid 3px var(--title-colour);
+	background-color: var(--title-colour);
 }
 h2{
 	font-family: monospace;
