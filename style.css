@@ -11,8 +11,8 @@ body{
 	--block-background-colour: #131408;
 	--header-colour: #ae74ff;
 }
-:not(.Heading):hover{
-	border: solid 3px var(--section-colour);
+div:not(.Heading):hover{
+	border: solid 3px var(--header-colour);
 }
 p{
 	background-color: var(--block-background-colour);
