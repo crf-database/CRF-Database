@@ -5,9 +5,19 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div style="display: none;" id="TOP SECRET SECRET DO NOT LOOK">
+    <div style="display: none;" id="Whoops!">
         <p> 
-          Even reading a single character of this anomaly's description melts your mind! Holy smokes! Why did you look into the classified documents? WHYYYYYY!!!!!
+          Hello! If you are reading this, you either used inspect element or you made a mistake and attempted to use extract_webpage_content. Please try again. The following code snippet has been preprared specially for you.<br>
+          Do note that the "id" variable must be replaced with whatever header you are attempting to look for.
+          <code>
+            from bs4 import BeautifulSoup
+            import requests
+            id = "idHere"
+            response = requests.get("https://crf-database.github.io/CRF-Database/")
+            soup = BeautifulSoup(response.content, 'html.parser')
+            div = soup.find("div", {"id": id})
+            print(div.string)
+          </code>
         </p>
     </div>
     <div id="C.R.F. Database" class = "Heading">
