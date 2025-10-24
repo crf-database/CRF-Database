@@ -16,7 +16,7 @@
             response = requests.get("https://crf-database.github.io/CRF-Database/")
             soup = BeautifulSoup(response.content, 'html.parser')
             div = soup.find("div", {"id": id})
-            print(div.string)
+            print(div.get_text())
           </code>
 
 
