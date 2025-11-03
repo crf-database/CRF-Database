@@ -3,10 +3,12 @@
   <head>
     <title>C.R.F. Database</title>
     <link rel="stylesheet" href="style.css" />
-    <script defer>
-      var path = window.location.pathname;
-      var page = path.split("/");
-      document.getElementById("page").innerHTML = page;
+    <script type="text/javascript">
+      window.onload = function() {
+        var path = window.location.pathname;
+        var page = path.split("/");
+        document.getElementById("page").innerHTML = page;
+      }
     </script>
   </head>
   <body>
