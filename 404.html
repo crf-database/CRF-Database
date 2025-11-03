@@ -6,7 +6,7 @@
     <script type="text/javascript">
       window.onload = function() {
         var path = window.location.pathname;
-        var page = path.split("/");
+        var page = path.split("/").pop();
         document.getElementById("page").innerHTML = page;
       }
     </script>
