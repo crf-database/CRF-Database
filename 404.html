@@ -3,9 +3,14 @@
   <head>
     <title>C.R.F. Database</title>
     <link rel="stylesheet" href="style.css" />
+    <script>
+      var path = window.location.pathname;
+      var page = path.split("/").pop();
+      document.getElementById("page").innerHTML = page;
+    </script>
   </head>
   <body>
     <h1>404: NOT FOUND</h1>
-    <p>Oops! That doesn't seem to be a valid entry ID. Perhaps you worded it wrong?</p>
+    <p>Oops! That (<span id="page"></span>) doesn't seem to be a valid entry ID. Perhaps you worded it wrong?</p>
   </body>
 </html>
